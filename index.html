@@ -9,20 +9,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-<header id = "quiz">
-    <h1 class = "title">Code Challenge </h1>
-    <h2 class = "rules"></h2>
-</header>
+    <header id = "quiz">
+        <h1 class = "title">Code Challenge </h1>
+        <h2 class = "rules"></h2>
+        <p>You must respond to every questions before the time is up!</p>
+    </header>
 
-<div class= "quiz-questions">
-    <h1 class= "question"></h1>
+    <div class="container">
+        <div id="home" class="flex-column flex-center">
+            <!-- <h1>Start Game</h1> -->
+            <a href="./game.html" class="btn">Start</a>
+            <a href="/highscores.html" id="highscore-btn" class="btn">High Scores</a>
+            </div>
+
+
+    <main class = "page-content" id = "page-content"> 
+        
+        <h2 id = "countdown" style="display:none"><span id="count"></span></h2> 
+        <!--5 questions-->
+        <div class="questions-wrapper">
+            <h2 id = "prompt" style = "display:none">Quest</h2>
+        <div>
+        <!--Buttons with choices for answer-->
+        <div id="options-wrapper" style = "display:none">
+            <button id = A>A</button>
+            <button id = B>B</button> 
+            <button id = C>C</button>
+            <button id = D>D</button>
+        </div>
+      
 </div>
-<div class="container">
-    <h1 class="welcome">Are you ready?</h1>
-    <button id="start">Start</button>
-    <h2 id="countdown"></h2>
-    <p id="main"></p>
-  </div>
+</main>
   <script src="./main.js"></script>
 </body>
 </html>
