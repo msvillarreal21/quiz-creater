@@ -12,10 +12,10 @@ margin-top:2.4%;
 
 #nav {
   display: block;
-  background-color: #e64e79;
+  background-color: #600fac;
   display: inline-block;
   width: 101%;
-  border: 3px solid #e64e79;
+  border: 3px solid #600fac;;
   border-radius: 5px;
   margin-left: -.75%;
   margin-right: 5%;
@@ -52,7 +52,7 @@ a {
 
 button {
   border: none;
-  background-color: #e64e79;
+  background-color: #600fac;
   color: white;
   border-radius: 5px;
   padding: 10px 16px 10px 16px;
@@ -63,7 +63,7 @@ button {
 
 button:hover {
   transition-duration: 0.4s;
-  background-color: #ff80a4;
+  background-color: #600fac;
 }
 
 #quiz {

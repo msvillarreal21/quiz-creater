@@ -1,13 +1,13 @@
 //array of an object to store the quiz Q/A 
 var questions = [{
-    Que: "Which operator has highest precedence?",
-    Opt: ["()", "=", "*", "+"],
-    Ans: "()"
+    Que: "Which type of file allows you to style the page?",
+    Opt: ["CSS", "Javascript", "Html", "C++"],
+    Ans: "CSS"
 },
 {
-    Que: "Can we overload functions in C++?",
-    Opt: ["Yes", "No", "Compilation Error", "Runtime Error"],
-    Ans: "Yes"
+    Que: "How do you comment in CSS?",
+    Opt: ["/**/", "You can't comment", "!", "//"],
+    Ans: "/**/"
 },
 {
     Que: "Question 5: The logical operator that represents 'or' is ____.",
@@ -15,9 +15,9 @@ var questions = [{
     Ans: "||"
 },
 {
-    Que: "Can we assign null to void pointer?",
-    Opt: ["Yes", "No"],
-    Ans: "Yes( )"
+    Que: "What is error 404 mean?",
+    Opt: ["User Error", "Server Error"],
+    Ans: "User Error"
 },
 {
     Que: "Which of the following function of String object combines the text of two strings and returns a new string?",
