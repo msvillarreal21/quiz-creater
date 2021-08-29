@@ -19,7 +19,9 @@ This app sets up multiple questions to be answered by the user. The user is time
 
 
 
-![alt text]()
+![alt text](Quizstart.png)
+![alt text](quizquestion.png)
+![alt text](highscore.png)
 
 ## File types:
 - Html : to link javascript and holds basic infomation for browser to display
